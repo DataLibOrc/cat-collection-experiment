@@ -16,7 +16,7 @@ use feature ':5.10'; #For use of modern features
 
 TOP:
 
-my $catlist = 'C:\Users\hp\Documents\Grad\OneDrive\Documents\Code\Perl\catlist.txt'; #catlist, see loop3.pl for initial setup
+my $catlist = './catlist.txt'; #catlist, see loop3.pl for initial setup
 my $datetime = localtime();
 
 START:
